@@ -1,0 +1,49 @@
+2023/10/11 17:58:39 [error] 8#8: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2023/10/13 01:35:53 [warn] 8#8: server name "/var/www/wordpress" has suspicious symbols in /etc/nginx/conf.d/amaisonn.42.fr.conf:4
+2023/10/13 01:35:53 [emerg] 8#8: open() "/etc/nginx/sites-enabled/default" failed (2: No such file or directory) in /etc/nginx/nginx.conf:60
+2023/10/13 01:35:53 [warn] 1#1: server name "/var/www/wordpress" has suspicious symbols in /etc/nginx/conf.d/amaisonn.42.fr.conf:4
+2023/10/13 01:35:53 [emerg] 1#1: open() "/etc/nginx/sites-enabled/default" failed (2: No such file or directory) in /etc/nginx/nginx.conf:60
+2023/10/13 01:39:21 [emerg] 8#8: no "ssl_certificate" is defined for the "listen ... ssl" directive in /etc/nginx/conf.d/amaisonn.42.fr.conf:1
+2023/10/13 01:39:21 [emerg] 1#1: no "ssl_certificate" is defined for the "listen ... ssl" directive in /etc/nginx/conf.d/amaisonn.42.fr.conf:1
+2023/10/13 01:49:48 [notice] 11#11: signal process started
+2023/10/13 01:49:48 [error] 11#11: invalid PID number "" in "/run/nginx.pid"
+2023/10/13 01:49:50 [notice] 30#30: signal process started
+2023/10/13 01:49:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 01:49:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 01:49:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 01:49:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 01:49:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 01:49:52 [emerg] 1#1: still could not bind()
+2023/10/13 01:50:29 [notice] 11#11: signal process started
+2023/10/13 01:50:29 [error] 11#11: invalid PID number "" in "/run/nginx.pid"
+2023/10/13 01:50:32 [notice] 30#30: signal process started
+2023/10/13 01:50:33 [emerg] 1#1: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/10/13 01:50:33 [emerg] 1#1: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/10/13 01:50:33 [emerg] 1#1: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/10/13 01:50:33 [emerg] 1#1: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/10/13 01:50:33 [emerg] 1#1: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/10/13 01:50:33 [emerg] 1#1: still could not bind()
+2023/10/13 02:02:26 [emerg] 18#18: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:02:26 [emerg] 1#1: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:03:47 [emerg] 18#18: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:03:47 [emerg] 1#1: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:06:17 [emerg] 18#18: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:06:17 [emerg] 1#1: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:07:04 [emerg] 18#18: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:07:04 [emerg] 1#1: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:08:48 [emerg] 18#18: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:08:48 [emerg] 1#1: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:13:57 [emerg] 18#18: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:13:57 [emerg] 1#1: cannot load certificate "/etc/ssl/certs/amaisonn.42.fr.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/amaisonn.42.fr.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/10/13 02:21:55 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:21:55 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:21:55 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:21:55 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:21:55 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:21:55 [emerg] 1#1: still could not bind()
+2023/10/13 02:23:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:23:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:23:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:23:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:23:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2023/10/13 02:23:00 [emerg] 1#1: still could not bind()

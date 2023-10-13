@@ -1,0 +1,53 @@
+services:
+    webserv:
+        container_name: webserv
+        build:
+            context: requirements/webserv
+            dockerfile: Dockerfile
+        ports:
+            - "443:443"
+        networks:
+            - inception_network
+        volumes:
+            - inception_wordpress:/var/www/wordpress
+            - ./logs:/var/log/nginx
+            
+    wordpress:
+        container_name: wordpress
+        build: requirements/wordpress
+        env_file: .env
+        ports:
+            - "9000:9000"
+        networks:
+            - inception_network
+        volumes:
+            - inception_wordpress:/var/www/wordpress
+    
+    db:
+        container_name: db
+        build: requirements/db
+        env_file: .env
+        ports:
+            - "3306:3306"
+        networks:
+            - inception_network
+        volumes:
+            - inception_db:/var/lib/mysql
+
+volumes:
+    inception_wordpress:
+        driver: local
+        driver_opts:
+            type: none
+            device: /home/amaisonn/data/wordpress
+            o: bind
+    inception_db:
+        driver: local
+        driver_opts:
+            type: none
+            device: /home/amaisonn/data/mysql
+            o: bind
+networks:
+    inception_network:
+        driver: bridge
+        external: true
