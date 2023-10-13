@@ -10,7 +10,6 @@ services:
             - inception_network
         volumes:
             - inception_wordpress:/var/www/wordpress
-            - ./logs:/var/log/nginx
             
     wordpress:
         container_name: wordpress
